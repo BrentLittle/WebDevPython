@@ -1,0 +1,21 @@
+HTML, CSS, JavaScript
+
+HTML is a Markup Language
+    annotating the content of a document
+    describe structure and meaning of the page's content
+Tags describe the content we are trying to display to the user
+
+
+CSS is used to describe the presentation of a document
+    changig how things look on our pages
+uses a system of selectors to outline what we want to change the appearance of 
+and how it should be changed
+
+JavaScript is a programming language supported by every major browser
+cannot run python code in browser
+JS is used to handle complex user interactions and manipulating the other code 
+that exists on the page 
+    add or remove elements
+    generate requests without loading page
+Do Not rely too heavily on core site functionality
+    prevent some users to not access the site

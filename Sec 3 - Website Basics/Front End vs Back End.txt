@@ -1,0 +1,23 @@
+Front End
+everything the user interacts with
+    sees
+    does
+    content on the page
+Client Side code as it runs in the user's browser
+HTML5 CSS3 JavaScript
+
+Browser compatability is a large part of front end development to make sure your
+content works on multiple different browsers
+
+Back End
+Handle and responds to requests from the client side requests
+concerned with storage of data
+flow control of data through application
+    restricting access to certain pages
+    soring and retreiving user information
+    dynamically populating pages with content
+
+Python with Flask for Backend
+
+
+

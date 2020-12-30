@@ -1,0 +1,11 @@
+Each browser has developer tools
+
+richt-click inpsect
+
+ctrl shift I or F12
+
+DevTools allow to add and remove elements from websites
+        also allow to Modify styles of elemets or view performance and requests
+
+DevTools only change locally and not on the server
+    only making changes to the local copy in the browser

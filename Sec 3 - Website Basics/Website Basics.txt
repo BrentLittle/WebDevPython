@@ -1,0 +1,37 @@
+what goes on in the background?
+    Find the IP address of the domain we want to access
+    given a URL a browser needs to determine what IP corresponds to that URL
+        Name Resolution
+            uses a DNS server
+                checks an index of URLs and their corresponidng IP Addresses
+
+For sites visited before the IP can be found in local caches
+        browser
+        OS
+        Router
+If a record is not found in these caches then the ISP needs to provide the IP address of the domain
+
+Once the IP Address is collected then the browser will attempt to connect to the server
+
+Once connected to the server the browser can send and HTTP Request 
+    
+browser generally creates get requests to get content from the server
+
+Cookies are small peices of data stored by the browser and used to preserve information between page visits
+
+we can also send POST requests
+
+HTTP responses are what we get back from the server
+    contain extra metadata
+
+200 - request sucessful
+404 - content not found
+
+what is returned is an HTML document to describe the page's content and links to other resources to be fetched
+    style sheets
+    videos
+    fonts
+    JS
+
+
+
