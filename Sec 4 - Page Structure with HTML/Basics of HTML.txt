@@ -1,0 +1,20 @@
+HTML documents are made up of units that describe the structure and meaning of a page's content
+    Units are called HTML Elements
+
+Write HTML Elements using Tags to determine where the elements start and end
+content is inside the element if it is between the opening and closing tags.
+Void elements cannot have content inside them only one singe tag rather than opening and closing
+You can nest tags together
+ 
+P ELEMENT
+    paragraph element
+    <p>Hello! I'm inside a paragraph</p>
+    ^ Open                            ^Close
+
+Can also add attributes in the HTML tags
+    <input type="number" required />
+                            ^ this value is required and form cannot be submitted until value is inputted by user
+        attributes have three parts
+            attribute name
+            equals sign
+            attribute value (between quotation marks)
