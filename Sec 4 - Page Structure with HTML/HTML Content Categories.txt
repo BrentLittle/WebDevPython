@@ -1,0 +1,25 @@
+Flow content
+    text or embedded content SA images or Videos
+    most HTML elements are apart of this categories
+        Forms are not
+    Flow content has multiple subcategories
+
+    Flow content (All elements that effect what the user sees)
+        Sectioning
+        Heading
+        Phrasing
+
+Sectioning Content (Elements used for grouping other elements into collections)
+    Special container of elements used for grouping other elements into meaningful collections
+    <article> <article>, <nav>
+
+Heading Content (defining titles of a section)
+    Reserved for the 6 heading elements
+        h1 to h6
+    heading elements only contain phrasing elements inside them
+
+Phrasing Content  (Plain text elements)
+    this is text and markup of that text
+    if it can be in a sentence then it is likely phrasing content
+    can also contain images audio or video
+        if these elements cannot be retrieved they BECOME text

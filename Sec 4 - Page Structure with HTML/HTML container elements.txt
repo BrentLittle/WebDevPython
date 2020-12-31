@@ -1,0 +1,45 @@
+Section - 
+    Contains thematically related elements
+    the section element is part of a whole
+    Example
+        Webpage with blogs and Merchandise
+        Section elements cna be used to separate these groups of content
+
+    Generally Sections contain a heading
+
+Article - 
+    Used to mark a self-contained composition
+        this information makes sense on its own
+    Example     
+        Weather Forecast
+            Each Day's Forecast can be a separate articel that are within a larger Article
+            that is the forecast
+
+Section represents thematically related elements
+Article represents self contained work
+
+div - 
+    very generic, useful for grouping
+    Used to aid in styling a page
+    If about to add a div STOP!!
+        think if something can better describe what you want to do
+
+header - 
+    introductory content
+    header bars with logo and navigation
+    Can use header inside section and article
+
+
+nav - 
+    major navigation blocks in the site
+    often inside the header
+
+main - 
+    the main content of the document
+    only 1 per HTML page and it is inside the body
+
+footer - 
+    social links
+    secondary navigation
+    site small print
+    Can place inside section or article elements if needed but should relate to the parent element

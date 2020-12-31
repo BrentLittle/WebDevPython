@@ -18,3 +18,64 @@ Can also add attributes in the HTML tags
             attribute name
             equals sign
             attribute value (between quotation marks)
+
+
+Head Contains information about the webpage for the browser to use
+the body contains the data that will be presented to the user
+
+
+
+MOST COMMON HTML ELEMENTS:
+
+span - 
+    annotate small pieces of text
+    add specific behaviour to this element
+    very generic with no meaning
+    treat as a last resort
+    Example: highlighting words
+        <p> Ticket availability is extremely limited! </p>
+                                    ^^^  NOT GOOD <span> extremely </span>
+        BETTER  <em>extremely</em>  ^^^
+
+        If we want to change the colour of TIcket then span is a great choice
+
+
+a (anker) -
+    used for links  <a href="google.com"> Go to Google </a>
+    href stands for hypertext reference
+
+Lists ol,ul,li - 
+    Ordered (ol) and Unordered (ul) Lists
+    list items li is used inside both
+
+    Ordered List: 
+    <ol>
+        <li> Mix Butter and Sugar </li>
+        <li> Place in pan </li>
+    </ol>
+
+    Unordered List:
+    <ul>
+        <li> Milk </li>
+        <li> Eggs </li>
+    </ul>
+
+Form - 
+    Vital and used everywhere
+    lots of elements used in forms
+
+    Form attributes:
+        Action - Where we want to send the form data when submitted
+        Method - Type of HTTP request that gets submitted
+
+
+img - 
+    used to display images
+    src attribute
+        <img src="https://......."/>
+        can eb url or complete file path relative to HTML document
+        this is a void element
+
+    alt attribute   
+        provides text description of image
+        <img src="https://......." alt="A picture with colour"/>
