@@ -1,0 +1,34 @@
+/* This changes the h1 and p elements to be green but can be over written by class and ID selectors*/
+h1,p{
+    color:green;
+    color:#00FF00
+}
+
+
+/* this is a class selector */
+.red{
+    color:red;
+}
+
+
+/* this is a ID selector */
+
+#orange {
+    color:orange;
+}
+
+
+/* THE ID Selector overrides the class selector for CSS styling */
+#purple{
+    color:purple;
+}
+.red{
+    color:red;
+}
+
+
+/* This is a universal selector*/
+/* Selects every element in the document, can cause performance issues*/
+*{
+    color:black;
+}

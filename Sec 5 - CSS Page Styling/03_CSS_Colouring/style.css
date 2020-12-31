@@ -1,0 +1,13 @@
+/* This does not change the link in the paragraph due to inheritance*/
+main{
+    color:blue;
+}
+
+/* This changes the colour of the link*/
+a{
+    color: red;
+    text-decoration-color: hotpink;
+    border: 1px solid currentColor;
+    background-color: aquamarine;
+    /* Can use Hex, RGB HSL */
+}

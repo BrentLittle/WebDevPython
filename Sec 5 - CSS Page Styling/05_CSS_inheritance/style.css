@@ -1,0 +1,11 @@
+/* How can we change the colour of the paragraph without targeting the p element */
+p {
+    color:orange; /* the link in our paragraph already has a colour set so it is overwritten as does not change to orange */
+
+}
+
+a{
+    color: inherit; /* This forces the link to inherit the colour of its parent*/
+                    /* If we have different links in different coloured paragraphs we do not need to change the colour for all */ 
+                    /* it will just inherit the colour of its direct parent */
+}

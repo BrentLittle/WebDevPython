@@ -1,0 +1,16 @@
+
+body{
+    /* Changes the font of the page */
+    font-family:  "Segoe UI", Ubuntu, sans-serif, -apple-system, BlinkMacSystemFont;
+    color: #002244;
+}
+
+p{
+    line-height: 150%;
+}
+
+
+/*  */
+*,*::before, *::after{
+    box-sizing: inherit;
+}
