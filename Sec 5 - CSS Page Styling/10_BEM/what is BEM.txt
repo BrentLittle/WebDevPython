@@ -1,0 +1,20 @@
+CSS methodology and a naming scheme
+uses classes exclusively
+    helps with specificity
+
+Block Element Modifier BEM
+
+Blocks
+    meaningful standalong entities
+        header, menu, forms, etc...
+    Block classes are generally single words
+
+Elements
+    part of a Block
+    meaning is tied to the block
+    written using block class and a double underscore
+
+Modifiers
+    Variant of the basic styles for a block Element
+    Uses the block or element class and a double hyphen 
+    vital for creating reusable styles

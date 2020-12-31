@@ -1,0 +1,52 @@
+Surrounding some content we have padding 
+that is surrounded by a border then surrounded by a Margin
+
+STANDARD BOX MODEL
+Margin
+    border  
+        padding
+            Content
+
+The width and height for an element change the size of its content area
+    width:300px;
+    height:50px;
+    padding:10px;
+
+    <div class="element"></div>
+
+    .element{
+        width: 300px;
+        height: 50px;
+        padding: 10px;
+        background-color: purple;
+    }
+
+    This causes a final dimensions of 320x70
+
+    if we want the final width to be 300 then 
+        we need to subtract the vertical padding and vertical borders 
+        from the width of the content
+
+
+ALTERNATIVE BOX MODEL
+    Size of element is contentSize + padding + border 
+    margin is still calculated seperately
+
+    we cna setup the alternative box model for all elements by using 
+    *, *::before, *::after{
+        box-sizing: inherit;
+    }
+    
+    body{
+        box-sizing: border-box;
+    }
+
+
+For inline elements we cannot specify width and heights or add padding margins and borders
+
+<main> 
+    <p>This is a paragrpah that will wrap onto two lines</p>
+</main>
+main{
+    max-width: 100px;
+   }

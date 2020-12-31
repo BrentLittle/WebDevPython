@@ -1,7 +1,11 @@
+*, *::before, *::after {
+    box-sizing:inherit;
+}
 
 body{
     /* Changes the font of the page */
     font-family:  "Segoe UI", Ubuntu, sans-serif, -apple-system, BlinkMacSystemFont;
+    box-sizing: border-box;
     color: #002244;
 }
 
@@ -9,8 +13,13 @@ p{
     line-height: 150%;
 }
 
-
-/*  */
-*,*::before, *::after{
-    box-sizing: inherit;
+main{
+    max-width :35rem;
+    margin: 3.75rem auto 0 auto;
+}
+img{
+    max-width:100%;
+}
+h1{
+    margin-bottom: 2.5rem;
 }

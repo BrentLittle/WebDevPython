@@ -1,0 +1,21 @@
+pixels
+    scaling is occured in high-pixel count displays will 
+    still display objects at an appropriate size
+
+Percentages
+    used for values relative to parent
+    width: 50% means width of the element is 50% of that of its parent
+
+em
+    defined as the point size of the font
+    if fint sixe is 16 pixels 1em = 16px
+    uses the local font size of that element
+
+rem
+    uses the global font size to detemine its value
+
+Viewport units (vh and vw)
+1vh = 1% of viewpoert's height
+1vw = 1% of the viewpoert's width
+
+View port is the currently visible area of the website in the broswer window

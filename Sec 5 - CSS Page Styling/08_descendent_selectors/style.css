@@ -1,0 +1,27 @@
+/* Targets all list items that are in an unordered list */
+ul li {
+    color: orangered;
+}
+
+/* Targets all links inside list items that are in an unordered list */
+ul li a{ 
+    color: black;
+}
+
+
+/* Child combinator */
+/* dt element that is a direct child of a dl */
+dl > dt{
+    font-weight: 700;
+}
+
+/* Targets all input elements that are siblings of a label and come AFTER that label */
+label ~ input {
+    padding: 5px 10px;
+}
+
+/* Targets the input element that is a sibling of a label and is the next input afte that label */
+label + input {
+    padding: 5px 10px;
+}
+

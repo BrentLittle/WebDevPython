@@ -1,0 +1,45 @@
+Mechanism used by browsers to determine whihc property declarations are applied
+Selectors of a property determine the specificity weight
+The property that has heightest weight gets applied
+    
+    div ul li {   
+        this has a specificity weight of 3 as there are 3 type selectors
+    }
+
+    button[type = "submit]
+    {
+        This has higher weight as it has a classttribute selector and only one type selector
+    }
+    
+    BUT
+
+    [type = "submit]
+    {
+        This has higher lower weight than the last as it has no type selector
+    }
+
+
+
+    .list_item{
+        This one wins over the one under as it has a higher weight
+        due to having a class / attribute selector
+    }
+
+    VS 
+
+    div ul li{
+
+    }
+
+
+    ID Selectors have a higher specificity
+
+    Inline Styles have the highest specificity
+
+
+    You can override specificity with !important
+    div ul li{
+        background-color: blue !important;
+        This overwrites any higher specificity selectors that may overwrite 
+        BUT if a higher specificity selector also using !important wins
+    }

@@ -9,3 +9,22 @@ a{
                     /* If we have different links in different coloured paragraphs we do not need to change the colour for all */ 
                     /* it will just inherit the colour of its direct parent */
 }
+
+.inner{
+    width: 100px;
+    height:50px;
+    border: inherit;
+    background: inherit;
+}
+
+.outer{
+    /* this outer div will tkae up the entire width of the page if not specified */
+    background: url("coding.jpg");
+    background-size: cover;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+/* Some properties are not inherited by default */
+/* Layout Properties 
+    margins paddings width height etc...*/
