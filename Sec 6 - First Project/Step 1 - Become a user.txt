@@ -1,0 +1,23 @@
+Users are apart of the team
+    one person of the team is responsible for representing the users
+
+In a solo project you should sit down think about hwat you have accomplished and 
+plan next steps
+
+Users wont create their own app if something already exists
+    research competitors
+        view what they do well and what they can improve on to see if it is worth your time to 
+        invest developing a product
+
+What users want with user stories
+
+1.  As a user i would like to be abel to add a new journal entry so that i can keep track
+    of my programming over time.
+
+2.  As a user i would like to be able to easily see past journal entries in a simple way so 
+    i can remember what i have learnt.
+
+3.  I would like to be able to access my journal from any device throuhg a website
+
+
+User stories contain what and why but NEVER How

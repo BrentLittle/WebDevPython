@@ -1,0 +1,8 @@
+At start plan on the big ideas instead of the fine details
+    you can break down the big ideas
+    focus on user and userstories
+
+Write down the user stories we have decied to persue into a story tracker, Trello, Jira ETC...
+
+Order them by what the user would want first
+    what will make the most impact in their user experience

@@ -1,0 +1,39 @@
+Learn about AGILE to manage this project form scratch
+implement things incrementally 
+
+coding back end application with Flask
+front end with HTML and CSS.
+
+
+How to work on software projects and how to make them successful
+- how to handle working on software projects to make working on them easier
+
+5 main steps to project management:
+
+1. Become a user
+    Have a client in your team
+        plan witht hem
+        show them the product often
+    Have 2-3 week plans to lover risk of planning waste
+
+2. Populate the backlog with help from user
+    shrink and re-think uunitl you have something useful for one sprint
+        every sprint should end in useful software
+    THE KEY TO MAKING software  
+        produce working software every sprint
+
+    Client can add or remove work form the backlog at any time
+        changing the planned work is disruptive
+
+3. Make the working software
+    Break things doen into sprint worth of work and make sure it can be completed during a sprint
+
+
+4. Review and change the plan
+    Show off the working software
+    Client supplies feedback
+
+5. improve the process 
+    periodically review your processes and ways of working    
+        very important
+
