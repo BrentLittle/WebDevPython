@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
+    <title>Microblog</title>
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="navbar__brand">
+            <img src="/static/original.svg" alt="Microblog Logo" class="navbar__logo">Microblog
+        </div>
+        <ul class="navbar__navigation">
+            <li class="navbar__navigation-item">
+                <a href="#" class="navbar__link">Recent</a>
+            </li>
+            <li class="navbar__navigation-item">
+                <a href="#" class="navbar__link">Calendar</a>
+            </li>
+        </ul>
+    </header>
+
+    <main class="main">
+        <section>
+            <h1>Add New Entry</h1>
+            <form method="POST" class="form">
+                <p class="form__input">
+                    <label for="entry" class="form__label">Enter your journal entry for the day</label>
+                    <textarea name="content" id="entry" class="form__textarea" aria-label="Entry content"></textarea>
+                </p>
+                <button type="submit" class="form__submit">Add entry</button>
+            </form>
+        </section>
+        <section>
+            <h1>Recent Posts</h1>
+            {%for entry in entries%}
+            <article class="entry">
+                <div>
+                    <h2 class="entry__title">{{entry[0] | truncate(30,true)}}</h2>
+                    <time class="entry__date" datetime=02-01-2021> • {{entry[2]}}</time>
+                </div>
+                <p class="entry__content">
+                    {{entry[0]}}
+                </p>
+            </article>
+            {%endfor%}
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__content">
+            <section class="left">
+                <a class="footer__item">Made By Brent Littlefield</a>
+                <a class="footer__item">Check out some of my other projects</a>
+            </section>
+            <section class="right">
+                <div class="footer__column">
+                    <a class="footer__item">Recent</a>
+                    <a class="footer__item">Calendar</a>
+                </div>
+                <div class="footer__column">
+                    <a class="footer__item">About</a>
+                    <a class="footer__item">How it's Made</a>
+                </div>
+            </section>
+        </div>
+    </footer>
+    <!-- <script src="scripts.js"></script> -->
+</body>
+
+</html>
