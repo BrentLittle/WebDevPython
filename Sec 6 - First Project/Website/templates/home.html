@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="/static/styles.css">
     <title>Microblog</title>
 </head>
 
@@ -13,7 +13,7 @@
 
     <header class="navbar">
         <div class="navbar__brand">
-            <img src="original.svg" alt="Microblog Logo" class="navbar__logo">Microblog
+            <img src="/static/original.svg" alt="Microblog Logo" class="navbar__logo">Microblog
         </div>
         <ul class="navbar__navigation">
             <li class="navbar__navigation-item">
@@ -28,7 +28,7 @@
     <main class="main">
         <section>
             <h1>Add New Entry</h1>
-            <form action="/entry" method="POST" class="form">
+            <form method="POST" class="form">
                 <p class="form__input">
                     <label for="entry" class="form__label">Enter your journal entry for the day</label>
                     <textarea name="content" id="entry" class="form__textarea" aria-label="Entry content"></textarea>
@@ -38,15 +38,17 @@
         </section>
         <section>
             <h1>Recent Posts</h1>
+            {%for entry in entries%}
             <article class="entry">
                 <div>
-                    <h2 class="entry__title">Chill Day Today</h2>
-                    <time class="entry__date" datetime=02-01-2021> • Jan 1</time>
+                    <h2 class="entry__title">{{entry[0] | truncate(30,true)}}</h2>
+                    <time class="entry__date" datetime=02-01-2021> • {{entry[2]}}</time>
                 </div>
                 <p class="entry__content">
-                    Did not do too much coding today, but we are back at it tomorrow!
+                    {{entry[0]}}
                 </p>
             </article>
+            {%endfor%}
         </section>
     </main>
 

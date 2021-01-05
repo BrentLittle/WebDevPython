@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planets in Our Solar System</title>
+</head>
+
+<body>
+    <h2>Planets using For Loop on a list</h2>
+    <ul>
+        {% for planet in planets %}
+        <li>{{ planet }}</li>
+        {% endfor %}
+    </ul>
+    <!-- Can also iterate over dictionaries the same as in python -->
+
+    <h2>For loop & conditional statements</h2>
+
+    {% for user, os in user_os.items() %}
+    {% if os == "Windows" %}
+    <p>💻 {{ user }} is a Windows user.</p>
+    {% elif os == "MacOS" %}
+    <p>{{ user }} is a MacOS user.</p>
+    {% elif os == "Linux" %}
+    <p>{{ user }} is a Linux user.</p>
+    {% endif %}
+    {% endfor %}
+
+</body>
+
+</html>
